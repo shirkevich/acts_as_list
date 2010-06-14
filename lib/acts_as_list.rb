@@ -1,3 +1,5 @@
+require 'acts_as_list/version'
+
 module ActsAsList''
   def acts_as_list(options = {})
     raise ArgumentError, "Hash expected, got #{options.class.name}" if not options.is_a?(Hash) and not options.empty?
