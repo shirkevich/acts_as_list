@@ -9,7 +9,9 @@ spec = Gem::Specification.new do |s|
   s.name              = "acts_as_list"
   s.version           = ActsAsList::VERSION
   s.author            = "Rails Core"
-  s.description       = "Sorting and reordering objects in a list for AR"
+  s.description       = "Gem version of acts_as_list Rails plugin"
+  s.summary           = "This acts_as extension provides the capabilities for sorting and reordering a number of objects in a list. The class 
+that has this specified needs to have a +position+ column defined as an integer on the mapped database table."
   s.platform          = Gem::Platform::RUBY
   s.files             = include_files
   s.require_path      = "lib"
