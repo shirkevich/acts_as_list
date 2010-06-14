@@ -6,7 +6,7 @@ include_files = ["README", "Rakefile", "init.rb", "{lib,test}/**/*"].map do |glo
 end.flatten
 
 spec = Gem::Specification.new do |s|
-  s.name              = "ActsAsList"
+  s.name              = "acts_as_list"
   s.version           = ActsAsList::VERSION
   s.author            = "Rails Core"
   s.description       = "Sorting and reordering objects in a list for AR"
